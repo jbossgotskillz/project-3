@@ -10,8 +10,6 @@ Technologies: html, css, js, jsx
 
 Improvements: Experiment with other forms of state management (such as useReducer and useEffect), import icons for tasks, create an app that utilizes React-Router and Redux
 
-<html lang="en">
-
 <head>
     <title>Taskbot</title>
 
@@ -22,7 +20,7 @@ Improvements: Experiment with other forms of state management (such as useReduce
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link rel="stylesheet" type="text/css" href="/main/index.css">
 
 </head>
 
@@ -31,7 +29,7 @@ Improvements: Experiment with other forms of state management (such as useReduce
     <nav class="navbar my-4">
         <div class="row container-fluid">
             <div class="col-2">
-                <img src="./gigatech_robot.jpg" height="150" alt="app symbol">
+                <img src="/main/gigatech_robot.jpg" height="150" alt="app symbol">
             </div>
             <div class="col-10">
               <p class="navbar-brand my-auto">Taskbot</p>
@@ -54,7 +52,7 @@ Improvements: Experiment with other forms of state management (such as useReduce
     <!--company logo and slogan-->
     
     <div class="text-center">
-        <img src="./gigatech_logo.jpg" class="logo" alt="company logo">
+        <img src="/main/gigatech_logo.jpg" class="logo" alt="company logo">
         <p>Gigetech - human tested, robot approved</p>
     </div>
 
@@ -63,9 +61,7 @@ Improvements: Experiment with other forms of state management (such as useReduce
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
-    <script src="./scripts.js"></script>
-    <script src="./index.js"></script>
+    <script src="/main/scripts.js"></script>
+    <script src="/main/index.js"></script>
 
 </body>
-
-</html>
