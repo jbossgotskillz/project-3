@@ -10,6 +10,8 @@ Technologies: html, css, js, jsx
 
 Improvements: Experiment with other forms of state management (such as useReducer and useEffect), import icons for tasks, create an app that utilizes React-Router and Redux
 
+<html lang="en">
+
 <head>
     <title>Taskbot</title>
 
@@ -66,3 +68,4 @@ Improvements: Experiment with other forms of state management (such as useReduce
 
 </body>
 
+</html>
