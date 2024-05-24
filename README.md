@@ -16,35 +16,28 @@ Improvements: Experiment with other forms of state management (such as useReduce
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Web site created using create-react-app">
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" >
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./index.css">
-    
-    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js" crossorigin></script>
-
+    <link rel="stylesheet" type="text/css" href="./index.css">
 
 </head>
+
+<body>
 
     <nav class="navbar my-4">
         <div class="row container-fluid">
             <div class="col-2">
-                <img src=".gigatech_robot.jpg" height="150" alt="app symbol">
+                <img src="./gigatech_robot.jpg" height="150" alt="app symbol">
             </div>
             <div class="col-10">
               <p class="navbar-brand my-auto">Taskbot</p>
             </div>
         </div>
     </nav>
-
-<body>
-
+    
     <div id="root"></div>
 
     <script>
