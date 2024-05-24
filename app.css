@@ -1,0 +1,74 @@
+
+
+.title {
+    color:  slateblue;
+}
+
+.container {
+    border:  double;
+    border-color:  gray;
+    background-image:  url('./circuit-board.jpg');
+    background-position: center;
+    background-attachment:  fixed;
+    padding: 59px;
+}
+
+/*.container:hover {
+    border:  dashed;
+    border-color:  gray;
+    background-image:  url('./gigatech-robot.jpg');
+    background-position: center;
+    background-attachment:  fixed;
+    padding: 59px;
+}*/
+
+.todo-group {
+    margin:  auto;
+    background-color:rgba(0, 0, 0, 0.842);
+    padding-top:  12px;
+    padding-bottom:  12px;
+}
+
+.todo-input {
+    background-color:  orange;
+    color:  white;
+    width:  60%;
+    margin:  auto;
+}
+
+.todo-btn {
+    margin:  auto;
+}
+
+.form-end {
+    padding-bottom:  30px;
+}
+
+.form-btn {
+    margin-left:  40px;
+    margin-top:  13px;
+    background-color:  rgba(0, 0, 0, 0.842);
+}
+
+.todo-container {
+    margin-top:  25px;
+    background-color:  black;
+    border:  double;
+}
+
+body {
+    background-color: black;
+    color:  orange;  /*lawngreen*/
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.btn-info {
+    background-color:  slateblue;
+    border-color:  slateblue;
+}
+
+.btn-info:hover {
+    background-color:  orange;
+    border-color:  orange;
+}
