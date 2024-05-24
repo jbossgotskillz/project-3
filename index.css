@@ -21,7 +21,7 @@
 .container {
     border:  double;
     border-color:  gray;
-    background-image:  url('./circuit-board.jpg');
+    background-image:  url('main/circuit_board.jpg');
     background-position: center;
     background-attachment:  fixed;
     padding: 59px;
@@ -30,7 +30,7 @@
 /*.container:hover {
     border:  dashed;
     border-color:  gray;
-    background-image:  url('./gigatech-robot.jpg');
+    background-image:  url('main/gigatech_robot.jpg');
     background-position: center;
     background-attachment:  fixed;
     padding: 59px;
