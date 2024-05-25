@@ -21,104 +21,32 @@ Improvements: Experiment with other forms of state management (such as useReduce
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/main/index.css">
+    <link rel="stylesheet" type="text/css" href="./public/css/index.css">
 
 </head>
 
 <body>
 
+<!--navigation bar-->
+
     <nav class="navbar my-4">
         <div class="row container-fluid">
             <div class="col-2">
-                <img src="/main/gigatech_robot.jpg" height="150" alt="app symbol">
+                <img src="./public/images/gigatech_robot.jpg" height="150" alt="app symbol">
             </div>
             <div class="col-10">
               <p class="navbar-brand my-auto">Taskbot</p>
             </div>
         </div>
     </nav>
+
+    <!--React source-->
     
     <div id="root"></div>
 
     <script>
             practice();
     </script>
-
-    <style>
-
-    .navbar {
-    /*background:  linear-gradient(gray, rgb(70, 68, 80));*/
-    background-color:  gray;
-    color:  orange;
-}
-
-.navbar-brand {
-    font-size:  60px;
-    font-family: "Tektur", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 480;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-    }
-
-.title {
-    color:  slateblue;
-}
-
-.container {
-    border:  double;
-    border-color:  gray;
-    background-image:  url('main/circuit_board.jpg');
-    background-position: center;
-    background-attachment:  fixed;
-    padding: 59px;
-}
-
-/*.container:hover {
-    border:  dashed;
-    border-color:  gray;
-    background-image:  url('main/gigatech_robot.jpg');
-    background-position: center;
-    background-attachment:  fixed;
-    padding: 59px;
-}*/
-
-
-.form-end {
-    padding-bottom:  30px;
-}
-
-.form-btn {
-    margin-left:  40px;
-    margin-top:  13px;
-    background-color:  rgba(0, 0, 0, 0.842);
-}
-
-.todo-container {
-    margin-top:  25px;
-    background-color:  black;
-    border:  double;
-}
-
-body {
-    background-color: black;
-    color:  orange;  /*lawngreen*/
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-
-.btn-info {
-    background-color:  slateblue;
-    border-color:  slateblue;
-}
-
-.btn-info:hover {
-    background-color:  orange;
-    border-color:  orange;
-}
-
-    </style>
     
     <div class="text-center">
         <p>One last thing...just in case your inferior human brain somehow failed to process the current time and date:  </p>
@@ -129,7 +57,7 @@ body {
     <!--company logo and slogan-->
     
     <div class="text-center">
-        <img src="/main/gigatech_logo.jpg" class="logo" alt="company logo">
+        <img src="./public/gigatech_logo.jpg" class="logo" alt="company logo">
         <p>Gigetech - human tested, robot approved</p>
     </div>
 
@@ -138,7 +66,7 @@ body {
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
-    <script src="/main/scripts.js"></script>
-    <script src="/main/index.js"></script>
+    <script src="./public/scripts.js"></script>
+    <script src="./src/index.js"></script>
 
 </body>
