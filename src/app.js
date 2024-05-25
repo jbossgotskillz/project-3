@@ -13,9 +13,9 @@ function App() {
 
 	return(
 		<div>
-			<header>
+			/*<header>
 				Task Manager
-			</header>
+			</header>*/
 			<main>
 				<Home />
 				<Todo />
