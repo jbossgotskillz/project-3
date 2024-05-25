@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 
 export default function Contact() {
 
-    let [name, setName] = useState('')
-    let [email, setEmail] = useState('')
-    let [message, setMessage] = useState('')
+    let [name, setName] = useState('');
+    let [email, setEmail] = useState('');
+    let [message, setMessage] = useState('');
 
   return (
       <div>
@@ -64,35 +64,6 @@ export default function Contact() {
 
 }
 
-
-
-
-
-
-  
-    /*return (
-      <div>
-      <label>
-        <span className="label">Name</span>
-        <input
-          value={name}
-          onChange={event => setName(event.target.value)}
-        />
-        {!name && "Please enter your name"}
-      </label>
-      <label>
-        <span className="label">Email Address</span>
-        <input
-          value={email}
-          onChange={event => setEmail(event.target.value)}
-        />
-        {!email && "Please enter your email address"}
-      </label>
-      <label>
-        <span className="label">Message</span>
-        <input
-          value={message}
-          onChange={event => setMessage(event.target.value)}
         />
         {!message && "Please enter your message"}
       </label>
