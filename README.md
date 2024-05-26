@@ -57,7 +57,7 @@ Improvements: Experiment with other forms of state management (such as useReduce
     <!--company logo and slogan-->
     
     <div class="text-center">
-        <img src="./public/gigatech_logo.jpg" class="logo" alt="company logo">
+        <img src="./public/images/gigatech_logo.jpg" class="logo" alt="company logo">
         <p>Gigetech - human tested, robot approved</p>
     </div>
 
@@ -66,7 +66,7 @@ Improvements: Experiment with other forms of state management (such as useReduce
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
-    <script src="./public/scripts.js"></script>
+    <script src="./public/js/scripts.js"></script>
     <script src="./src/index.js"></script>
 
 </body>
