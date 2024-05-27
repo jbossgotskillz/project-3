@@ -55,7 +55,7 @@ Improvements: Experiment with other forms of state management (such as useReduce
             <p>Welcome to Taskbot!  Produced by the Gigatech corporation, this app allows customers to keep up 
                 with their daily schedule.                
             </p>
-            <img src=".public/images/circuit_board2.jpg" height="200" class="d-flex mx-auto my-3" alt="circuit board" />
+            <img src="./public/images/circuit_board2.jpg" height="200" class="d-flex mx-auto my-3" alt="circuit board" />
             <p>As one of Earth's leading manufacturers of hi-tech, state-of-the-art gadgets and electronics, Taskbot
                 prides itself on manufacturing top-level futuristic devices.  In a time when technological innovation 
                 is running out of control, you can't afford to fall behind on your tasks.  That's why Gigatech's team 
@@ -91,7 +91,7 @@ Improvements: Experiment with other forms of state management (such as useReduce
             <div class="container my-4">
                 <div class="todo-group text-center">
                 <h1>What do you need to do?</h1>
-                <form class="todo-group">
+                <form>
                     <section>
                         <div class="todo row my-2">
                             <div class="col 8">
@@ -129,7 +129,7 @@ Improvements: Experiment with other forms of state management (such as useReduce
                 </p>
     
                 <div class="container">
-        <form class="contact-group contact-form my-4" action="#" method="POST">
+        <form class="todo-group contact-form my-4" action="#" method="POST">
             <div class="form-group row">
                 <div class="col-6 offset-md-3">
                     <label class="container-fluid p-0">
