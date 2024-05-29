@@ -21,6 +21,9 @@ Improvements: Experiment with other forms of state management (such as useReduce
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="./public/css/index.css">
 
 </head>
@@ -107,7 +110,12 @@ Improvements: Experiment with other forms of state management (such as useReduce
                                 <button type="submit" class="btn btn-info todo-btn">Update task</button>
                             </div>
                             <div>
-                                <p>O = add task / X = delete task</p>
+                                <button type="button" class="todo-btn">
+                                    <i class="fa fa-download" style="color: slateblue"></i>
+                                </button>
+                                <button type="button" class="todo-btn">
+                                    <i class="fa fa-trash" style="color: slateblue"></i>
+                                </button>
                             </div>
                         </div>
                     </section>
@@ -167,7 +175,7 @@ Improvements: Experiment with other forms of state management (such as useReduce
 
         .todo-group {
             margin:  auto;
-            background-color:rgba(0, 0, 0, 0.842);
+            background-color:  rgba(0, 0, 0, 0.842);
             padding-top:  12px;
             padding-bottom:  12px;
         }     
@@ -183,6 +191,13 @@ Improvements: Experiment with other forms of state management (such as useReduce
         .todo-container {
             margin:  9%;
             padding-top:  12px;
+        }
+        
+        .todo-btn {
+            background-color:  black;
+            border-color:  slateblue;
+            margin-top: 8px;
+            margin-bottom:  8px;
         }
 
         </style>
