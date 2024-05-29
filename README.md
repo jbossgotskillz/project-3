@@ -99,7 +99,7 @@ Improvements: Experiment with other forms of state management (such as useReduce
                         <div class="todo row my-2">
                             <div class="col 8">
                                 <input type="text" class="todo-input" placeholder="Add task here">
-                                <button type="submit" class="btn btn-info todo-btn">Add task</button>
+                                <button type="submit" class="btn btn-info">Add task</button>
                             </div>
                         </div>
                     </section>
@@ -107,7 +107,7 @@ Improvements: Experiment with other forms of state management (such as useReduce
                         <div class="todo-container row my-2">
                             <div class="col 6">
                                 <input type="text" class="todo-input2" placeholder="Where the task is supposed to be edited">
-                                <button type="submit" class="btn btn-info todo-btn">Update task</button>
+                                <button type="submit" class="btn btn-info">Update task</button>
                             </div>
                             <div>
                                 <button type="button" class="todo-btn">
@@ -120,7 +120,6 @@ Improvements: Experiment with other forms of state management (such as useReduce
                         </div>
                     </section>
 
-                    </section>
                 </form>
 
                 </div>
